@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILERA - Menstrual Tracker</title>
+    <link rel="stylesheet" href="tracking_styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>ILERA</h1>
+        <p>Empowering Women of Color with Healthcare Access</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="doctors.html">Find Doctors</a></li>
+                <li><a href="tracking.html">Menstrual Tracker</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div >
+            <h2>Menstrual Tracking</h2>
+            <p>Track your cycle, symptoms, and moods with ease.</p>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h3>Last Period Date</h3>
+                <p>Select the start and end date of your last period:</p>
+                <form>
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date">
+                    <br><br>
+                    <label for="end-date">End Date:</label>
+                    <input type="date" id="end-date" name="end-date">
+                </form>
+            </div>
+    
+            <div class="section">
+                <h3>Symptoms</h3>
+                <p><input type="checkbox" id="fatigue" name="fatigue"> <label for="fatigue">Fatigue</label>
+                <input type="checkbox" id="cramps" name="cramps"> <label for="cramps">Cramps</label>
+                <input type="checkbox" id="moodSwings" name="moodSwings"> <label for="moodSwings">Mood Swings</label>
+                <input type="checkbox" id="headache" name="headache"> <label for="headache">Headache</label></p>
+                <p><input type="checkbox" id="bloating" name="bloating"> <label for="bloating">Bloating</label>
+                <input type="checkbox" id="acne" name="acne"> <label for="acne">Acne</label>
+                <input type="checkbox" id="backPain" name="backPain"> <label for="backPain">Back Pain</label>
+                <input type="checkbox" id="nausea" name="nausea"> <label for="nausea">Nausea</label> </p>
+                <p><input type="checkbox" id="irritability" name="irritability"> <label for="irritability">Irritability</label>
+                <input type="checkbox" id="breastTenderness" name="breastTenderness"> <label for="breastTenderness">Breast Tenderness</label></p>
+    
+            </div>
+    
+            <div class="section">
+                <h3>Mood</h3>
+                <div class="mood">
+                    <p>
+                        <input type="radio" id="happyMood" name="mood" value="happy">
+                        <label for="happyMood">
+                            <img src="happy-icon.png" alt="Happy Mood" title="Happy">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="sadMood" name="mood" value="sad">
+                        <label for="sadMood">
+                            <img src="sad-icon.png" alt="Sad Mood" title="Sad">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="angryMood" name="mood" value="angry">
+                        <label for="angryMood">
+                            <img src="angry-icon.png" alt="Angry Mood" title="Angry">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="irritableMood" name="mood" value="irritable">
+                        <label for="irritableMood">
+                            <img src="irritable-icon.png" alt="Irritable Mood" title="Irritable">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="anxiousMood" name="mood" value="anxious">
+                        <label for="anxiousMood">
+                            <img src="anxious-icon.png" alt="Anxious Mood" title="Anxious">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="tiredMood" name="mood" value="tired">
+                        <label for="tiredMood">
+                            <img src="tired-icon.png" alt="Tired Mood" title="Tired">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="hopefulMood" name="mood" value="hopeful">
+                        <label for="hopefulMood">
+                            <img src="hopeful-icon.png" alt="Hopeful Mood" title="Hopeful">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="frustratedMood" name="mood" value="frustrated">
+                        <label for="frustratedMood">
+                            <img src="frustrated-icon.png" alt="Frustrated Mood" title="Frustrated">
+                        </label>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class = "content">
+            <div class = "section">
+                <div >
+                    <h2>Menstrual Cycle History</h2>
+                    <!--Enter the correct information to get history of menstrual cycle-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2025 ILERA. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

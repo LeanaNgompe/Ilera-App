@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILERA - Settings</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <header>
+        <h1>ILERA</h1>
+        <p>Empowering Women of Color with Healthcare Access</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="doctors.html">Find Doctors</a></li>
+                <li><a href="tracking.html">Menstrual Tracker</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Settings Page Content -->
+    <section class="settings-container">
+        <h2>Settings</h2>
+        <p>Manage your preferences and account settings.</p>
+        
+        <form id="settings-form">
+            <label for="notification">Enable Notifications:</label>
+            <input type="checkbox" id="notification" name="notification"><br>
+            <br>
+            <label for="theme">Choose Theme:</label>
+            <select id="theme" name="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select><br>
+            <br>
+            <label for="privacy">Privacy Settings:</label>
+            <select id="privacy" name="privacy">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+            </select><br>
+            <br>
+            <button type="submit">Save Changes</button>
+        </form>
+    </section>
+    
+    <footer class = "footer">
+        <p>&copy; 2025 ILERA | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fffafa;
+    color: #d81b60;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('background-pattern.png'); /* Add the background pattern */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.subheading {
+    font-size: 14px;
+    color: #d81b60;
+    margin-top: -10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}

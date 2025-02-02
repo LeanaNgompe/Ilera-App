@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILERA - Find Doctors</title>
+    <link rel="stylesheet" href="doctors_styles.css">
+</head>
+<body>
+    <header>
+        <h1>ILERA</h1>
+        <p>Empowering Women of Color with Healthcare Access</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="doctors.html">Find Doctors</a></li>
+                <li><a href="tracking.html">Menstrual Tracker</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Find Doctors Page Content -->
+    <section>
+        <div>
+            <h2>Find POC/WOC Doctors Near You</h2>
+            <p>Search for healthcare providers who understand your needs.</p>
+        </div>
+        <div class = "content">
+            <form id="doctor-search-form">
+                <label for="location">Enter Your Location:</label>
+                <input type="text" id="location" name="location" placeholder="City, State or Zip Code" required>
+                
+                <button type="submit">Search</button>
+            </form>
+            
+            <div id="doctor-results">
+                <!-- Search results will be displayed here -->
+            </div>
+            </div>
+    </section>
+    
+    <footer class ="footer">
+        <p>&copy; 2025 ILERA | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
